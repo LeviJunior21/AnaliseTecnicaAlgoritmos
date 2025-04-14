@@ -81,4 +81,5 @@ profundidade_maxima = 0
 for i in range(n):
     if p[i] == -1:
         profundidade_maxima = max(profundidade_maxima, dfs(i))
+
 print(profundidade_maxima)
