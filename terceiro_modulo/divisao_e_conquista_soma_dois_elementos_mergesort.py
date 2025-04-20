@@ -4,8 +4,8 @@ Quero saber se existem dois elementos do vetor cuja soma é exatamente s.
 Dê um algoritmo que resolva o problema em tempo O(nlg(n)).
 """
 
-from divisao_e_conquista_merge_sort_for import MergeSort
-from divisao_e_conquista_busca_binaria_soma import BuscaBinariaSoma
+from terceiro_modulo.divisao_e_conquista_merge_sort_for import MergeSort
+from terceiro_modulo.divisao_e_conquista_busca_binaria_soma import BuscaBinariaSoma
 
 array = [9,8,7,6,5,4,3,2,1]
 soma = 10
