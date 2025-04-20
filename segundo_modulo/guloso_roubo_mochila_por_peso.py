@@ -10,7 +10,6 @@ def roubar(pesos, precos, peso_total):
         if peso_atual <= peso_total:
             soma_pesos += itens[-1][0]
             escolhidos.append([itens[-1][0], itens[-1][1]])
-
         itens.pop(-1)
     
     return escolhidos
